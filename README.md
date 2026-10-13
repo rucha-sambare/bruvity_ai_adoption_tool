@@ -3,7 +3,9 @@
 
 ## one command
 
-py run.py   or  python run.py
+    py run.py  
+           or 
+     python run.py
 
 
 

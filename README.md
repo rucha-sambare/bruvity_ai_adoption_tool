@@ -3,9 +3,17 @@
 
 ## one command
 
-python run.py
+py run.py   or  python run.py
 
 
+
+
+
+ to check health  -  curl http://127.0.0.1:8000/health
+
+
+ test -
+ python -m pytest -q
 
 python -m pip install -r requirements.txt && python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 
